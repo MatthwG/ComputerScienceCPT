@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,12 +34,16 @@
   },
   "name":"Oswald's Adventure",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},},
+    {"id":{"name":"Oswald","path":"objects/Oswald/Oswald.yy",},},
+    {"id":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},},
+    {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
+    {"id":{"name":"WallSprite","path":"sprites/WallSprite/WallSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
