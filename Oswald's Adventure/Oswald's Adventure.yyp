@@ -34,9 +34,13 @@
   },
   "name":"Oswald's Adventure",
   "resources":[
+    {"id":{"name":"DirtObject","path":"objects/DirtObject/DirtObject.yy",},},
     {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},},
     {"id":{"name":"Oswald","path":"objects/Oswald/Oswald.yy",},},
+    {"id":{"name":"Stone","path":"objects/Stone/Stone.yy",},},
     {"id":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},},
+    {"id":{"name":"Cobblestone","path":"sprites/Cobblestone/Cobblestone.yy",},},
+    {"id":{"name":"Dirt","path":"sprites/Dirt/Dirt.yy",},},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
     {"id":{"name":"WallSprite","path":"sprites/WallSprite/WallSprite.yy",},},
   ],

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Floor",
+  "%Name":"DirtObject",
   "eventList":[],
   "managed":true,
-  "name":"Floor",
+  "name":"DirtObject",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"WallSprite",
-    "path":"sprites/WallSprite/WallSprite.yy",
+    "name":"Dirt",
+    "path":"sprites/Dirt/Dirt.yy",
   },
-  "spriteMaskId":{
-    "name":"WallSprite",
-    "path":"sprites/WallSprite/WallSprite.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
