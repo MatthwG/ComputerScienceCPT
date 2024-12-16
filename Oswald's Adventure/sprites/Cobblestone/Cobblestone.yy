@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Cobblestone",
   "bboxMode":0,
-  "bbox_bottom":1338,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":1339,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1339,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"6f28d747-65c8-4b1f-bb34-dc6f89ea21c7","blendMode":0,"displayName":"default","isLocked":false,"name":"6f28d747-65c8-4b1f-bb34-dc6f89ea21c7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1340,
+  "width":64,
 }

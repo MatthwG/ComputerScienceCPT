@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Stone",
+  "%Name":"Portal",
   "eventList":[],
   "managed":true,
-  "name":"Stone",
+  "name":"Portal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Cobblestone",
-    "path":"sprites/Cobblestone/Cobblestone.yy",
+    "name":"PortalSprite",
+    "path":"sprites/PortalSprite/PortalSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
