@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_movinglight",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_Buildings",
+  "eventList":[],
   "managed":true,
-  "name":"obj_movinglight",
+  "name":"obj_Buildings",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Buldings1",
+    "path":"sprites/Buldings1/Buldings1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

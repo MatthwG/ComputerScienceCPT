@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_movinglight",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_BloorStreetText",
+  "eventList":[],
   "managed":true,
-  "name":"obj_movinglight",
+  "name":"obj_BloorStreetText",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"BloorStreetText",
+    "path":"sprites/BloorStreetText/BloorStreetText.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
