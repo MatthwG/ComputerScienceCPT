@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_BloorStreetSign",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"JustBtwTheWallGoesINHere",
+  "eventList":[],
   "managed":true,
-  "name":"obj_BloorStreetSign",
+  "name":"JustBtwTheWallGoesINHere",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -23,20 +21,15 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":57.0,"y":0.0,},
-    {"x":57.0,"y":160.0,},
-    {"x":0.0,"y":160.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BloorStreetSign",
-    "path":"sprites/BloorStreetSign/BloorStreetSign.yy",
+    "name":"PortalSprite",
+    "path":"sprites/PortalSprite/PortalSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

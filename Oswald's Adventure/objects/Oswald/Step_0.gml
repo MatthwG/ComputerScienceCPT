@@ -15,9 +15,9 @@ move_x = move_x * move_speed;
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
-var l47EC289F_0 = instance_place(x + 0, y + 2, [obj_wall]);if ((l47EC289F_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "object" "WalkingBox"
+/// @DnDSaveInfo : "object" "WalkingBox"
+var l47EC289F_0 = instance_place(x + 0, y + 2, [WalkingBox]);if ((l47EC289F_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 355C39F5
 	/// @DnDParent : 47EC289F
@@ -60,11 +60,13 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDHash : 6FE46D98
 /// @DnDArgument : "xvel" "move_x"
 /// @DnDArgument : "yvel" "move_y"
+/// @DnDArgument : "xoff" "2"
+/// @DnDArgument : "yoff" "2"
 /// @DnDArgument : "maxxmove" "5"
 /// @DnDArgument : "maxymove" "50"
-/// @DnDArgument : "object" "obj_wall"
-/// @DnDSaveInfo : "object" "obj_wall"
-move_and_collide(move_x, move_y, obj_wall,4,0,0,5,50);
+/// @DnDArgument : "object" "WalkingBox"
+/// @DnDSaveInfo : "object" "WalkingBox"
+move_and_collide(move_x, move_y, WalkingBox,4,2,2,5,50);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

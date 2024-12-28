@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Portal",
+  "%Name":"WalkingBox",
   "eventList":[],
   "managed":true,
-  "name":"Portal",
+  "name":"WalkingBox",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PortalSprite",
-    "path":"sprites/PortalSprite/PortalSprite.yy",
+    "name":"WalkingHitbox",
+    "path":"sprites/WalkingHitbox/WalkingHitbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
