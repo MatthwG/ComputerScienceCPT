@@ -50,6 +50,7 @@
     {"id":{"name":"Stone","path":"objects/Stone/Stone.yy",},},
     {"id":{"name":"WalkingBox","path":"objects/WalkingBox/WalkingBox.yy",},},
     {"id":{"name":"FirstLevel","path":"rooms/FirstLevel/FirstLevel.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
     {"id":{"name":"shd_shadsurf","path":"shaders/shd_shadsurf/shd_shadsurf.yy",},},
@@ -71,6 +72,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"FirstLevel","path":"rooms/FirstLevel/FirstLevel.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
