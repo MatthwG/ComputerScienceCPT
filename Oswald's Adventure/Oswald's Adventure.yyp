@@ -57,6 +57,7 @@
     {"id":{"name":"Oswald","path":"objects/Oswald/Oswald.yy",},},
     {"id":{"name":"Painting","path":"objects/Painting/Painting.yy",},},
     {"id":{"name":"Policeeeee","path":"objects/Policeeeee/Policeeeee.yy",},},
+    {"id":{"name":"PoliceHitbox","path":"objects/PoliceHitbox/PoliceHitbox.yy",},},
     {"id":{"name":"ROM","path":"objects/ROM/ROM.yy",},},
     {"id":{"name":"ROMDialogue","path":"objects/ROMDialogue/ROMDialogue.yy",},},
     {"id":{"name":"SignBanner","path":"objects/SignBanner/SignBanner.yy",},},

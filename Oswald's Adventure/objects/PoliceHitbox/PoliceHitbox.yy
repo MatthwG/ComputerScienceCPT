@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Policeeeee",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Oswald","path":"objects/Oswald/Oswald.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"PoliceHitbox",
+  "eventList":[],
   "managed":true,
-  "name":"Policeeeee",
+  "name":"PoliceHitbox",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Policeeeee",
+    "path":"objects/Policeeeee/Policeeeee.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SecurityGuardSprite",
-    "path":"sprites/SecurityGuardSprite/SecurityGuardSprite.yy",
+    "name":"WalkingHitbox",
+    "path":"sprites/WalkingHitbox/WalkingHitbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
