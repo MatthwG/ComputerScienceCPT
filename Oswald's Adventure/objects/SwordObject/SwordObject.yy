@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"SwordObject",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"SwordObject",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BlankBoi",
-    "path":"sprites/BlankBoi/BlankBoi.yy",
+    "name":"Sword",
+    "path":"sprites/Sword/Sword.yy",
   },
   "spriteMaskId":null,
   "visible":true,

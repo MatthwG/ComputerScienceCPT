@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"LightForSword",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"LightForSword",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -23,14 +23,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"swordlightsize","filters":[],"listItems":[],"multiselect":false,"name":"swordlightsize","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"40","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"BlankBoi",
-    "path":"sprites/BlankBoi/BlankBoi.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"OtherBuildingBroda",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"OtherBuildingBroda",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BlankBoi",
-    "path":"sprites/BlankBoi/BlankBoi.yy",
+    "name":"FrenchBuildingWithOtherLights",
+    "path":"sprites/FrenchBuildingWithOtherLights/FrenchBuildingWithOtherLights.yy",
   },
   "spriteMaskId":null,
   "visible":true,

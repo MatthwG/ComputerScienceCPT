@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"MuseumHalfSlabObject",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"MuseumHalfSlabObject",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BlankBoi",
-    "path":"sprites/BlankBoi/BlankBoi.yy",
+    "name":"MuseumHalfSlab",
+    "path":"sprites/MuseumHalfSlab/MuseumHalfSlab.yy",
   },
   "spriteMaskId":null,
   "visible":true,
