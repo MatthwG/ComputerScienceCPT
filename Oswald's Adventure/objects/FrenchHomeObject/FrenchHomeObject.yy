@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"FrenchHomeObject",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"FrenchHomeObject",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BlankBoi",
-    "path":"sprites/BlankBoi/BlankBoi.yy",
+    "name":"FrenchHome",
+    "path":"sprites/FrenchHome/FrenchHome.yy",
   },
   "spriteMaskId":null,
   "visible":true,

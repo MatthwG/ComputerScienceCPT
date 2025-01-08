@@ -46,10 +46,28 @@ with(obj_light_1){
 	
 	
 }
+with(LightForSword){
+	
+	gpu_set_blendmode_ext_sepalpha(bm_zero,bm_one,bm_one,bm_zero);
+	shader_set(shd_shadow);
+	shader_set_uniform_f(_u_pos2,x,y);
+	
+	vertex_submit(_vb,pr_trianglelist,-1);
+	
+	gpu_set_blendmode_ext_sepalpha(bm_inv_dest_alpha,bm_one,bm_zero,bm_zero);
+	shader_set(shd_light);
+	shader_set_uniform_f(_u_pos,x,y);
+	shader_set_uniform_f(_u_zz,swordlightsize);
+	
+	draw_rectangle_color(0,0,640,180,color,color,color,color,0);
+	
+	
+	
+}
 
 surface_reset_target();
 gpu_set_blendmode_ext(bm_zero,bm_src_color);
 shader_set(shd_shadsurf)
-draw_surface_ext(shad_surf,0,0,1,1,0,c_white,0.9);
+draw_surface_ext(shad_surf,0,0,1,1,0,c_white,0.98);
 shader_reset();
 gpu_set_blendmode(bm_normal);
