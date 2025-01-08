@@ -76,3 +76,45 @@ if(Oswald.x - Policeeeee.x == 0){	/// @DnDAction : YoYo Games.Movement.Set_Dir
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "image_xscale"
 	image_xscale = 1;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 712F0EFA
+/// @DnDArgument : "var" "health"
+/// @DnDArgument : "op" "3"
+if(health <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A3DC889
+	/// @DnDParent : 712F0EFA
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "PoliceDedSprite"
+	/// @DnDSaveInfo : "spriteind" "PoliceDedSprite"
+	sprite_index = PoliceDedSprite;
+	image_index += 0;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E0739C6
+	/// @DnDParent : 712F0EFA
+	speed = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6AD94655
+	/// @DnDParent : 712F0EFA
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "var" "image_speed"
+	image_speed = 1;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 135DE1A5
+	/// @DnDParent : 712F0EFA
+	/// @DnDArgument : "var" "image_index"
+	/// @DnDArgument : "op" "4"
+	/// @DnDArgument : "value" "19"
+	if(image_index >= 19){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 11B4023A
+		/// @DnDParent : 135DE1A5
+		instance_destroy();}}
