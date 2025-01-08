@@ -9,3 +9,10 @@ direction = 180;
 /// @DnDHash : 3910C60C
 /// @DnDArgument : "speed" "1.5"
 speed = 1.5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 79DD9679
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "health"
+health = 3;
