@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Button",
-    "path":"sprites/Button/Button.yy",
+    "name":"Play",
+    "path":"sprites/Play/Play.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 6D452A19
-/// @DnDArgument : "room" "Room3"
-/// @DnDSaveInfo : "room" "Room3"
-room_goto(Room3);
+/// @DnDHash : 3E71BF85
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "global.swordhit"
+global.swordhit = 1;

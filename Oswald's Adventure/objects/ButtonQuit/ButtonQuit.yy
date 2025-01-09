@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Button",
-    "path":"sprites/Button/Button.yy",
+    "name":"Quit",
+    "path":"sprites/Quit/Quit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

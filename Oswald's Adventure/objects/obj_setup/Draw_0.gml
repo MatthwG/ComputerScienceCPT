@@ -50,6 +50,6 @@ with(obj_light_1){
 surface_reset_target();
 gpu_set_blendmode_ext(bm_zero,bm_src_color);
 shader_set(shd_shadsurf)
-draw_surface_ext(shad_surf,0,0,1,1,0,c_white,0.8);
+draw_surface_ext(shad_surf,0,0,1,1,0,c_white,1);
 shader_reset();
 gpu_set_blendmode(bm_normal);
