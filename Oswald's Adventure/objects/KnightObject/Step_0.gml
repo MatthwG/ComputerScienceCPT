@@ -14,8 +14,8 @@ if(Oswald.x - KnightObject.x < 0){	/// @DnDAction : YoYo Games.Movement.Set_Di
 	/// @DnDVersion : 1
 	/// @DnDHash : 57381C04
 	/// @DnDParent : 19338B2D
-	/// @DnDArgument : "speed" "2"
-	speed = 2;
+	/// @DnDArgument : "speed" "speed"
+	speed = speed;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -41,8 +41,8 @@ if(Oswald.x - KnightObject.x > 0){	/// @DnDAction : YoYo Games.Movement.Set_Di
 	/// @DnDVersion : 1
 	/// @DnDHash : 76F69AA3
 	/// @DnDParent : 26DB320F
-	/// @DnDArgument : "speed" "2"
-	speed = 2;
+	/// @DnDArgument : "speed" "speed"
+	speed = speed;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

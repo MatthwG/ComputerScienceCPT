@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 14CDB5E8
+/// @DnDArgument : "var" "getjumpedboi"
+global.getjumpedboi = 0;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 352B2CD3
@@ -315,4 +321,12 @@ if(global.swordhit == 1){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDParent : 7661D676
 		/// @DnDArgument : "room" "Room3"
 		/// @DnDSaveInfo : "room" "Room3"
-		room_goto(Room3);}}
+		room_goto(Room3);
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 77471794
+		/// @DnDParent : 7661D676
+		/// @DnDArgument : "value" "1"
+		/// @DnDArgument : "var" "global.getjumpedboi"
+		global.getjumpedboi = 1;}}
