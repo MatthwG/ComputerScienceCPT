@@ -14,7 +14,9 @@ image_speed = 0;
 sprite_index = ROMSprite;
 image_index += 4;
 
-/// @DnDAction : YoYo Games.Rooms.Next_Room
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 613B7D19
-room_goto_next();
+/// @DnDHash : 72B10452
+/// @DnDArgument : "room" "Room2"
+/// @DnDSaveInfo : "room" "Room2"
+room_goto(Room2);

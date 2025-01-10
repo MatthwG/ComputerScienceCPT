@@ -117,4 +117,16 @@ if(health <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 11B4023A
 		/// @DnDParent : 135DE1A5
-		instance_destroy();}}
+		instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 4873F8A3
+		/// @DnDParent : 135DE1A5
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-20"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "DaggerIconObject"
+		/// @DnDArgument : "layer" ""TopLayer""
+		/// @DnDSaveInfo : "objectid" "DaggerIconObject"
+		instance_create_layer(x + 0, y + -20, "TopLayer", DaggerIconObject);}}
