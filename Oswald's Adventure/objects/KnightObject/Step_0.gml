@@ -14,8 +14,8 @@ if(Oswald.x - KnightObject.x < 0){	/// @DnDAction : YoYo Games.Movement.Set_Di
 	/// @DnDVersion : 1
 	/// @DnDHash : 57381C04
 	/// @DnDParent : 19338B2D
-	/// @DnDArgument : "speed" "1"
-	speed = 1;
+	/// @DnDArgument : "speed" "2"
+	speed = 2;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -41,8 +41,8 @@ if(Oswald.x - KnightObject.x > 0){	/// @DnDAction : YoYo Games.Movement.Set_Di
 	/// @DnDVersion : 1
 	/// @DnDHash : 76F69AA3
 	/// @DnDParent : 26DB320F
-	/// @DnDArgument : "speed" "1"
-	speed = 1;
+	/// @DnDArgument : "speed" "2"
+	speed = 2;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -117,4 +117,16 @@ if(health <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 3F3BB4F1
 		/// @DnDParent : 69A42AB4
-		instance_destroy();}}
+		instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 572AB229
+		/// @DnDParent : 69A42AB4
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-20"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "DaggerIconObject"
+		/// @DnDArgument : "layer" ""TopLayer""
+		/// @DnDSaveInfo : "objectid" "DaggerIconObject"
+		instance_create_layer(x + 0, y + -20, "TopLayer", DaggerIconObject);}}

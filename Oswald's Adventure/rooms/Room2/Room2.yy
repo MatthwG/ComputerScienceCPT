@@ -257,6 +257,7 @@
     {"name":"inst_6BB65D6E","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_20141A27","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_7BD0FCD2","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_11480F1B","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -268,6 +269,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6BB65D6E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BB65D6E","objectId":{"name":"Heart1","path":"objects/Heart1/Heart1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":420.0,"y":-11.0,},
         {"$GMRInstance":"v1","%Name":"inst_20141A27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20141A27","objectId":{"name":"Heart2","path":"objects/Heart2/Heart2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":494.0,"y":5.0,},
         {"$GMRInstance":"v1","%Name":"inst_7BD0FCD2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BD0FCD2","objectId":{"name":"Heart3","path":"objects/Heart3/Heart3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":535.0,"y":9.0,},
+        {"$GMRInstance":"v1","%Name":"inst_11480F1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11480F1B","objectId":{"name":"AmmoNumber","path":"objects/AmmoNumber/AmmoNumber.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":190.0,"y":176.0,},
       ],"layers":[],"name":"TopLayer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Tiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_10EB0D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10EB0D8","objectId":{"name":"MuseumWallpaper","path":"objects/MuseumWallpaper/MuseumWallpaper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
