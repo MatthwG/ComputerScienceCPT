@@ -17,4 +17,12 @@ if(global.OswaldHealth <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDParent : 37400F03
 	/// @DnDArgument : "room" "Arrested"
 	/// @DnDSaveInfo : "room" "Arrested"
-	room_goto(Arrested);}
+	room_goto(Arrested);
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 7279A38B
+	/// @DnDParent : 37400F03
+	/// @DnDArgument : "value" "3"
+	/// @DnDArgument : "var" "global.ammo"
+	global.ammo = 3;}
