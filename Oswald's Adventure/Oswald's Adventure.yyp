@@ -53,6 +53,7 @@
     {"id":{"name":"DoorHitbox","path":"objects/DoorHitbox/DoorHitbox.yy",},},
     {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},},
     {"id":{"name":"FrenchHomeObject","path":"objects/FrenchHomeObject/FrenchHomeObject.yy",},},
+    {"id":{"name":"GetJumpedBoi","path":"objects/GetJumpedBoi/GetJumpedBoi.yy",},},
     {"id":{"name":"Heart1","path":"objects/Heart1/Heart1.yy",},},
     {"id":{"name":"Heart2","path":"objects/Heart2/Heart2.yy",},},
     {"id":{"name":"Heart3","path":"objects/Heart3/Heart3.yy",},},
@@ -156,13 +157,13 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"FirstLevel","path":"rooms/FirstLevel/FirstLevel.yy",},},
     {"roomId":{"name":"MainMenuNew","path":"rooms/MainMenuNew/MainMenuNew.yy",},},
     {"roomId":{"name":"Arrested","path":"rooms/Arrested/Arrested.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"DedOswald","path":"rooms/DedOswald/DedOswald.yy",},},
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
